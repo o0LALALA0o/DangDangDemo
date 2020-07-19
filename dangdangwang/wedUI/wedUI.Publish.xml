@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\admin\Desktop\新建文件夹" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="11/21/2018 10:50:28" />
+    <file relUrl="WebForm1.aspx" publishTime="11/21/2018 08:29:51" />
+    <file relUrl="Login.aspx" publishTime="11/20/2018 21:45:05" />
+    <file relUrl="register.aspx" publishTime="11/21/2018 09:35:36" />
+    <file relUrl="bin/Entity.pdb" publishTime="11/19/2018 14:24:52" />
+    <file relUrl="img/loginForm.jpg" publishTime="11/17/2018 10:54:56" />
+    <file relUrl="bin/Entity.dll" publishTime="11/19/2018 14:24:52" />
+    <file relUrl="bin/wedUI.pdb" publishTime="11/21/2018 08:52:51" />
+    <file relUrl="img/footer.jpg" publishTime="11/17/2018 10:54:56" />
+    <file relUrl="bin/wedUI.dll" publishTime="11/21/2018 08:52:51" />
+    <file relUrl="bin/BLL.pdb" publishTime="11/19/2018 14:24:52" />
+    <file relUrl="img/login_Center.jpg" publishTime="11/17/2018 10:54:56" />
+    <file relUrl="img/login_Center2.jpg" publishTime="11/17/2018 10:54:56" />
+    <file relUrl="Site1.Master" publishTime="11/21/2018 08:27:48" />
+    <file relUrl="img/logo.png" publishTime="11/17/2018 10:54:56" />
+    <file relUrl="img/header.jpg" publishTime="11/17/2018 10:54:56" />
+    <file relUrl="bin/BLL.dll" publishTime="11/19/2018 14:24:52" />
+  </publishProfile>
+</publishData>

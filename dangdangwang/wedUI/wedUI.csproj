@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51B4F890-833C-4B96-815C-1C14D9A89B50}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wedUI</RootNamespace>
+    <AssemblyName>wedUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\Books\1043133031-1_b_1.jpg" />
+    <Content Include="img\Books\1154688672-1_b_7.jpg" />
+    <Content Include="img\Books\1163118140-1_b_4.jpg" />
+    <Content Include="img\Books\1277925879-2_b_2.jpg" />
+    <Content Include="img\Books\1900430142-1_l_3.jpg" />
+    <Content Include="img\Books\1900450950-1_l_4.jpg" />
+    <Content Include="img\Books\1900485202-1_l_3.jpg" />
+    <Content Include="img\Books\20150826171209.jpg" />
+    <Content Include="img\Books\20180424223706972673.png" />
+    <Content Include="img\Books\20180424223723518240.png" />
+    <Content Include="img\Books\20180424223737388408.png" />
+    <Content Include="img\Books\20180424223755526239.png" />
+    <Content Include="img\Books\20180424223815643931.png" />
+    <Content Include="img\Books\20180424223841930333.png" />
+    <Content Include="img\Books\20180424223903732136.png" />
+    <Content Include="img\Books\20180424223940583148.png" />
+    <Content Include="img\Books\20180424224002476193.png" />
+    <Content Include="img\Books\20180424224020634156.png" />
+    <Content Include="img\Books\20180424224037870530.png" />
+    <Content Include="img\Books\20180424224215730397.png" />
+    <Content Include="img\Books\20180424224236960626.png" />
+    <Content Include="img\Books\20180424224306212128.png" />
+    <Content Include="img\Books\20180424224323912644.png" />
+    <Content Include="img\Books\20180424224347449804.png" />
+    <Content Include="img\Books\20180424224410536854.png" />
+    <Content Include="img\Books\20180424224441937566.png" />
+    <Content Include="img\Books\20180424224506058368.png" />
+    <Content Include="img\Books\20180424224536387556.png" />
+    <Content Include="img\Books\20180424224555943454.png" />
+    <Content Include="img\Books\20180424224633388189.png" />
+    <Content Include="img\Books\20180424224655231852.png" />
+    <Content Include="img\Books\20180424224727600638.png" />
+    <Content Include="img\Books\20180424224848014620.png" />
+    <Content Include="img\Books\20180424225032737494.png" />
+    <Content Include="img\Books\20180424225055089548.png" />
+    <Content Include="img\Books\20180424225116700024.png" />
+    <Content Include="img\Books\20180424230326927341.png" />
+    <Content Include="img\Books\20180424230347543529.png" />
+    <Content Include="img\Books\20180424230414702452.png" />
+    <Content Include="img\Books\20180424230442279150.png" />
+    <Content Include="img\Books\20180424230511945299.png" />
+    <Content Include="img\Books\20180424230535004169.png" />
+    <Content Include="img\Books\20180424230558509673.png" />
+    <Content Include="img\Books\20180424230653409071.png" />
+    <Content Include="img\Books\20180424230746685248.png" />
+    <Content Include="img\Books\20180424230813123287.png" />
+    <Content Include="img\Books\20180424230836219079.png" />
+    <Content Include="img\Books\20180424230857749723.png" />
+    <Content Include="img\Books\20180424230912126454.png" />
+    <Content Include="img\Books\20180424230930560128.png" />
+    <Content Include="img\Books\20180426191837458600.png" />
+    <Content Include="img\Books\20180426201612647600.png" />
+    <Content Include="img\Books\20180426202049205600.png" />
+    <Content Include="img\Books\20180426233818271344.png" />
+    <Content Include="img\Books\20180426233857451567.png" />
+    <Content Include="img\Books\20180426234240913579.png" />
+    <Content Include="img\Books\20180427104622331539.png" />
+    <Content Include="img\Books\20180427104638607569.png" />
+    <Content Include="img\Books\20180427115428900151.png" />
+    <Content Include="img\Books\24102376-1_b_6.jpg" />
+    <Content Include="img\Books\25278092-1_l.jpg" />
+    <Content Include="img\Books\5566e4b4Nb156fe14.jpg" />
+    <Content Include="img\Books\55b8a409N20918431.jpg" />
+    <Content Include="img\Books\9787111108078.jpg" />
+    <Content Include="img\Books\9787113061548.jpg" />
+    <Content Include="img\Books\9787115129659.jpg" />
+    <Content Include="img\Books\9787115136923.jpg" />
+    <Content Include="img\Books\9787115145543.jpg" />
+    <Content Include="img\Books\9787121017223.jpg" />
+    <Content Include="img\Books\9787121026348.jpg" />
+    <Content Include="img\Books\9787121032158.jpg" />
+    <Content Include="img\Books\9787121033038.jpg" />
+    <Content Include="img\Books\9787121036514.jpg" />
+    <Content Include="img\Books\9787302133247.jpg" />
+    <Content Include="img\Books\9787302146452.jpg" />
+    <Content Include="img\Books\RQKKMssAAnjj149.jpg" />
+    <Content Include="img\Foot2.jpg" />
+    <Content Include="img\footer.jpg" />
+    <Content Include="img\Head2.bmp" />
+    <Content Include="img\header.jpg" />
+    <Content Include="img\loginForm.jpg" />
+    <Content Include="img\login_Center.jpg" />
+    <Content Include="img\login_Center2.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="SellCount.aspx" />
+    <Content Include="ShopCarInfo.aspx" />
+    <Content Include="text.aspx" />
+    <Content Include="user.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="WebForm4.aspx" />
+    <Content Include="WebForm5.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SellCount.aspx.cs">
+      <DependentUpon>SellCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellCount.aspx.designer.cs">
+      <DependentUpon>SellCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopCarInfo.aspx.cs">
+      <DependentUpon>ShopCarInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopCarInfo.aspx.designer.cs">
+      <DependentUpon>ShopCarInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="text.aspx.cs">
+      <DependentUpon>text.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="text.aspx.designer.cs">
+      <DependentUpon>text.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user.aspx.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user.aspx.designer.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{A413737C-4673-4229-B473-80F533B9502A}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{5CC66E62-BD80-438D-AE25-3090D01C6C1A}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23244</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
